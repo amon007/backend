@@ -4,7 +4,7 @@ require('dotenv').config();
 const MONGODB_URI = process.env.MONGODB_URI;
 const authRouter = require('./authRouter')
 const cors = require('cors');
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 3000
 const fileUpload = require('express-fileupload')
 
 
